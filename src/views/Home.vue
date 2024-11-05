@@ -8,13 +8,13 @@
           .d-none.d-md-block.d-lg-flex.mb-4.mb-md-0.col-md-4.col-xl-5.imagen-section
             img.img-fluid.h-full(
               src="@/assets/portada/banner.png"
-              alt="Estudiante virtual"
+              alt=""
               style="max-width: 672px;"
             )
           .d-block.d-md-none.mb-4.mb-md-0.col-md-6.imagen-section
             img.img-fluid.h-full(
               src="@/assets/portada/banner-mobile.png"
-              alt="Estudiante virtual"
+              alt=""
               style="max-width: 672px;"
             )
           //- Columna derecha con información
@@ -58,11 +58,11 @@ export default {
     @media (min-width: 1400px)
       max-width: 1378px
   .home-title
-    font-size: 26px
-    font-weight: normal
+    font-size: 38px
+    font-weight: 900
   .home-main-title
     font-size: 18px
-    font-weight: bold
+    font-weight: 700
     color: $color-sistema-d
   .home-content
     background-color: white
