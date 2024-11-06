@@ -1,4 +1,4 @@
-name: Deploy Vue App to GitHub Pages
+maname: Deploy Vue App to GitHub Pages
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout deploy branch
         uses: actions/checkout@v2
         with:
-          ref: deploy
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
