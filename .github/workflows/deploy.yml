@@ -32,6 +32,8 @@ jobs:
 
       - name: Setup Pages branch
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b newdist
           git add --force dist
           git commit -m "new dist"
