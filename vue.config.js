@@ -1,6 +1,6 @@
 const titulo = require('./src/config/titulo')
 module.exports = {
-  publicPath: process.env.NODE_ENV === '',
+  publicPath: '',
   css: {
     loaderOptions: {
       sass: {
