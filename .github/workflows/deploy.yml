@@ -1,4 +1,4 @@
-maname: Deploy Vue App to GitHub Pages
+name: Deploy Vue App to GitHub Pages
 
 on:
   workflow_dispatch:
