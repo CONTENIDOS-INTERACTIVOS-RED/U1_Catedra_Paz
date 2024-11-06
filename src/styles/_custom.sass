@@ -6,3 +6,102 @@
 .home-title
   font-size: 38px !important
   font-weight: 900 !important
+
+.bg-color
+  &-1
+    background-color: #E3F4F5
+  &-2
+    background-color: #FFF8D5
+  &-3
+    background-color: #FEF6E9
+  &-4
+    background-color: #E3F4F5
+  &-5
+    background-color: #FFFBE8
+  &-6
+    background-color: #FBE7E4
+
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.subtitulo-principal
+  font-size: 30px !important
+  font-weight: 700 !important
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/bg1.png") !important
+    background-position: top
+
+// Variables
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.acordion__header
+  background-color: #FEF6E9 !important
+
+.acordion__header--active
+  background-color: $color-acento-contenido !important
+
+.acordion__contenido
+  background-color: #FEE6BF !important
+
+
+
+.anexo__texto
+  p, strong
+    font-size: 14px !important
+    color: #000 !important
+
+.bloque-texto-c
+  padding: 34px !important
+  p
+    font-size: 22px  !important
+    line-height: 26.4px !important
+    font-weight: 700 !important
+  i
+    color: $color-primario !important
+
+.bg-img-1
+  position: absolute
+  max-width: none
+  width: calc( 100% + 96px  )
+  height: calc( 100% + 96px )
+  left: -48px
+  top: -48px
+  inline-size: auto
+
+.tabs-content
+  background-color: $color-sistema-h
+.img-infografica
+  background-color: $color-adicional-1
+.material-complementario
+  padding-top: 3rem
+  border-top: 9px solid $color-sistema-e
+
+

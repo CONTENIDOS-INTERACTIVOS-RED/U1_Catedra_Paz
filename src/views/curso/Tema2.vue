@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'NOMBRE TEMA 2'")
+  BannerInterno(:titulo="'Unidad 1. Introducción a la Paz y Resolución de Conflictos: Causas y Dinámicas del Conflicto'" :subTitulo="'2. TIPOS O NIVELESDE CONFLICTO'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     #t_2_1.titulo-segundo

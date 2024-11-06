@@ -9,11 +9,6 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   routes: [
     {
-      path: '/home',
-      name: 'home',
-      component: Home,
-    },
-    {
       path: '/',
       name: 'inicio',
       component: Home,

@@ -6,7 +6,7 @@ aside
       nav.aside-menu__content
         .aside-menu__header
           img(src="@/assets/template/book.svg")
-          h5 Índice temático
+          h4 Índice temático
         ul.aside-menu__menu
           template(v-for="(item,index) of menuData")
             div.aside-menu__menu__item_container
@@ -144,7 +144,7 @@ export default {
     padding: 23px 16px
     text-align: center
     background-color: $white
-    h5
+    h5, h4
       margin: 0
       font-weight: normal
     img
