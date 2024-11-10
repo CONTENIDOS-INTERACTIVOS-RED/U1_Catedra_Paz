@@ -55,7 +55,7 @@
 
 
 
-    h2(data-aos="fade-up") Factores desencadenantes de los conflictos
+    h2(data-aos="fade-up")#t_2_1 Factores desencadenantes de los conflictos
     
     p(data-aos="fade-up") Los conflictos no surgen de manera aislada; son el resultado de tensiones acumuladas por una variedad de factores desencadenantes que afectan a individuos, grupos o sociedades. Estos factores pueden ser sociales, económicos, políticos y culturales, y cada uno juega un papel importante en la dinámica y evolución. 
 

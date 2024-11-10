@@ -74,7 +74,7 @@
         figure
           img(src='@/assets/curso/tema1/6.png', alt='')
 
-    h2(data-aos="flip-up") Componentes de una cultura de paz
+    h2(data-aos="flip-up")#t_1_1 Componentes de una cultura de paz
 
     p.mb-5(data-aos="fade-up") Como parte de este proceso de aprendizaje, es crucial entender que la cultura de paz se construye a partir de varios componentes fundamentales. La UNESCO (1995), identifica estos elementos claves que deben estar presentes en una sociedad que aspira a la paz duradera:
 

@@ -39,7 +39,7 @@ export default {
     bottom: -50px
     left: 0
     right: 0
-    background-color: $color-btn-fondo
+    background-color: $app-fondo
     background-size: cover
     background-position: center
 

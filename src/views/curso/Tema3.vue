@@ -29,7 +29,7 @@
               .bg-color-1.p-3(x="55%" y="90%" numero="+")
                 p En muchas zonas rurales de distintos países, las comunidades tienen acceso limitado o casi nulo, a servicios básicos como la educación o la salud. Como resultado, el ciclo de pobreza se perpetúa, cerrando cada vez más las puertas al desarrollo. En estas situaciones, no solo se siente una exclusión en términos de servicios, sino también una exclusión política, ya que estas comunidades a menudo no tienen representantes que aboguen por sus necesidades. Este sentimiento de abandono por parte del Estado, puede generar malestar social. Las personas, frustradas por esta desigualdad, podrían organizarse y protestar para exigir cambios en las políticas públicas que garanticen una mejora en sus condiciones de vida.
 
-    h2(data-aos="fade-up") Dinámicas de poder en los conflictos
+    h2(data-aos="fade-up")#t_3_1 Dinámicas de poder en los conflictos
     p(data-aos="fade-up") Las dinámicas de poder juegan un papel fundamental en la evolución de las diferentes tensiones. El poder se refiere a la capacidad de un individuo o grupo, para influir en las decisiones que afectan a otros. En los conflictos, las dinámicas de poder determinan qué grupos controlan los recursos y quién tiene voz en los procesos de toma de decisiones. Según Lederach (2003), la forma en que se distribuye el poder en una sociedad, tiene un impacto directo en la aparición y perpetuación de estos.
 
     p(data-aos="fade-up").mb-3 Estas dinámicas son:
@@ -74,7 +74,7 @@
           .p-4.pe-5
             p.mb-0 #[strong Ejemplo:] imaginemos que trabajamos en una empresa donde las decisiones importantes las toma únicamente la dirección, sin consultar a los empleados. Esta falta de participación genera frustración entre los trabajadores, quienes sienten que sus opiniones no son valoradas ni consideradas. A largo plazo, este malestar puede escalar en forma de huelgas o protestas, porque los empleados demandan no solo mejores condiciones laborales, sino también mayor participación en las decisiones que afectan su día a día. Lo que inicialmente era una cuestión interna de poder, termina por convertirse en un conflicto abierto donde el diálogo y la negociación, son las claves para resolverlo.
       
-    h2(data-aos="fade-up") Interrelación entre factores estructurales y dinámicas de poder
+    h2(data-aos="fade-up")#t_3_2 Interrelación entre factores estructurales y dinámicas de poder
 
     p(data-aos="fade-up").mb-5 En toda sociedad, los factores estructurales y las dinámicas de poder están profundamente entrelazados. Frecuentemente, los sistemas de poder existentes perpetúan las desigualdades que ya están arraigadas en las estructuras sociales, políticas y económicas. Cuando una élite tiene un control significativo sobre los recursos y la toma de decisiones, es mucho más difícil que se produzcan los cambios necesarios para corregir esas desigualdades. Esto crea un círculo vicioso en el que las mismas estructuras que generan la desigualdad continúan intactas, reforzando y perpetuando los conflictos estructurales.
 

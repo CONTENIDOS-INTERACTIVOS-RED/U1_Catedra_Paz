@@ -37,6 +37,14 @@ export default {
         numero: '1.',
         titulo: 'Conceptos de paz y cultura de paz',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Componentes de una cultura de paz',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
@@ -45,6 +53,14 @@ export default {
         numero: '2.',
         titulo: 'Tipos o niveles de conflicto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Factores desencadenantes de los conflictos',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -53,6 +69,21 @@ export default {
         numero: '3.',
         titulo: 'Factores estructurales y dinámicas de poder',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Dinámicas de poder en los conflictos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Interrelación entre factores estructurales y dinámicas de poder',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
@@ -104,110 +135,70 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: '',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Conflicto comunitario',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        '"Son los que surgen cuando diferentes grupos o individuos dentro de una comunidad tienen intereses contrapuestos, generalmente relacionados con el acceso a recursos o decisiones colectivas que afectan a toda la comunidad." (Lederach, 2003).',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Conflicto estructural',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '"Es el conflicto que surge a partir de las desigualdades sistémicas dentro de una sociedad, ya sea en términos económicos, sociales o políticos. Estas desigualdades perpetúan la injusticia y marginación de ciertos grupos." (Galtung, 1996).',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Conflicto interpersonal',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '"Es el enfrentamiento que se presenta entre dos o más personas debido a discrepancias en valores, creencias o expectativas, lo cual puede generar tensiones y malentendidos." (Fisher, Ury, Patton, 2011).',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Conflicto intrapersonal',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        '"Es el conflicto que ocurre dentro de una persona, cuando sus deseos, valores o creencias están en contradicción, lo que genera tensión y estrés interno." (Galtung, 1996).',
     },
     {
-      termino: 'Moda',
+      termino: 'Cultura de paz',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        '"Conjunto de valores, actitudes y comportamientos que rechazan la violencia y previenen los conflictos, abordando sus causas para resolverlos mediante el diálogo y la negociación". (UNESCO, 1995).',
     },
     {
-      termino: 'Diseña',
+      termino: 'Dinámicas de poder',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        '“Son la forma en que se distribuye y utiliza el poder dentro de una sociedad o grupo. Quienes controlan los recursos y las decisiones suelen tener más poder, mientras que otros se ven subordinados o excluidos." (Lederach, 2003).',
     },
     {
-      termino: 'DIseño',
+      termino: 'Exclusión social',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        '"La exclusión social ocurre cuando ciertos grupos de la sociedad son marginados y se les niega el acceso equitativo a los recursos, derechos y oportunidades, perpetuando la desigualdad." (Martínez, 2001)',
     },
     {
-      termino: 'Tipología',
+      termino: 'Factores desencadenantes',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        '"Son de los conflictos pueden ser sociales, económicos, políticos o culturales, y actúan como causas inmediatas que provocan tensiones o enfrentamientos entre los actores implicados". (Freire, 2000)',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Mediación',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        '“Proceso de resolución de conflictos en el que un tercero neutral ayuda a las partes a alcanzar un acuerdo mediante el diálogo y la cooperación." (Fisher, Ury, Patton, 2011).',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Paz negativa',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '“Se refiere a la ausencia de violencia directa o física, sin abordar las causas estructurales que pueden seguir perpetuando el conflicto a nivel más profundo." (Galtung, 1996).',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Paz positiva',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        '“se refiere a la construcción de una sociedad donde las estructuras promuevan la justicia, la igualdad y el bienestar para todos los individuos, más allá de la mera ausencia de violencia." (Galtung, 1996).',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Violencia estructural',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la violencia que se manifiesta cuando las instituciones y estructuras sociales perpetúan la exclusión, la desigualdad y la injusticia, generando tensiones y conflictos que no se resuelven con la mera ausencia de violencia física." (Galtung, 1996).',
     },
   ],
   complementario: [
