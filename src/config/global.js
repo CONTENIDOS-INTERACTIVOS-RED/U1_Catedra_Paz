@@ -54,6 +54,14 @@ export default {
         titulo: 'Factores estructurales y dinámicas de poder',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'Unidad 1.',
+        numero: '4.',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -87,11 +95,11 @@ export default {
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-      },
+      // {
+      //   icono: 'far fa-registered',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      // },
     ],
   },
   referencias: [

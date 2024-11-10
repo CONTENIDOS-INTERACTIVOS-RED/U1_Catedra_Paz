@@ -12,8 +12,9 @@
       )
         .indicador__container(v-if="mostrarIndicador && index === 1")
           .indicador--click
-        img.me-3(src='@/assets/componentes/tabs-img-1.svg' :style="{'width':'37px'}")
+        img.me-3(:src="elm.icon" :style="{'width':'37px'}")
         span(v-html="elm.titulo")
+
   .tabs-c__content-item(
     v-for="elm of elements"
     :key="'tabs-content-'+elm.id"

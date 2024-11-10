@@ -1,4 +1,3 @@
-
 .home-main-title
   font-size: 18px
   font-weight: 700
@@ -6,6 +5,9 @@
 .home-title
   font-size: 38px !important
   font-weight: 900 !important
+
+.brounded
+  border-radius: 16px !important
 
 .bg-color
   &-1
@@ -20,6 +22,14 @@
     background-color: #FFFBE8
   &-6
     background-color: #FBE7E4
+  &-7
+    background-color: #FEFAF3
+  &-8
+    background-color: #DBEBF6
+  &-sintesis
+    background-color: #F9F9F9
+  &-white
+    background-color: #fff
 
 
 // Full Width Background
@@ -32,14 +42,16 @@
     padding-left: 1.5rem
     padding-right: 1.5rem
 
-.subtitulo-principal
-  font-size: 30px !important
-  font-weight: 700 !important
-
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
+  &-2
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.png") !important
+    background-position: bottom
 
 // Variables
 $custom-card-border-radius: 0px
@@ -62,6 +74,20 @@ $custom-card-img-height: 322px
     height: $custom-card-img-height
     object-fit: cover
 
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 224px
+    object-fit: cover
+
 .acordion__header
   background-color: #FEF6E9 !important
 
@@ -70,7 +96,6 @@ $custom-card-img-height: 322px
 
 .acordion__contenido
   background-color: #FEE6BF !important
-
 
 
 .anexo__texto
@@ -87,6 +112,29 @@ $custom-card-img-height: 322px
   i
     color: $color-primario !important
 
+
+.bg-ppal-claro
+  background-color: #F7F4ED
+.bg-ppal-azul
+  background-color: #E5F0F6
+.bg-ppal-azul-oscuro
+  background-color: #D9EEFD
+.bg-ppal-azul-primary
+  background-color: #1172B3
+.bg-red-claro
+  background-color: #FCDFDB !important
+
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+
+.rounded-8px
+  border-radius: 8px !important 
+
 .bg-img-1
   position: absolute
   max-width: none
@@ -98,10 +146,28 @@ $custom-card-img-height: 322px
 
 .tabs-content
   background-color: $color-sistema-h
-.img-infografica
-  background-color: $color-adicional-1
+
 .material-complementario
   padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+  border-top: 9px solid $color-acento-botones
 
 
+.img-infografica
+  background-color: transparent
+
+.img-infografica__item, .img-infografica-b__item
+  width: 48px !important
+  @media screen and (max-width: $bp-max-sm)
+    width: 38px !important
+  
+
+.img-infografica__item__dot:before, .img-infografica-b__item__dot:before
+  opacity: 1
+  border: 2px solid #FEFAF3
+  background-color: #F8BC17
+
+.img-infografica__card, .img-infografica-b__card
+  width: 350px !important
+  
+.img-infografica__item__numero
+  font-weight: 900

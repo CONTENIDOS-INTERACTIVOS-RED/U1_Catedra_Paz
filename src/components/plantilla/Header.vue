@@ -1,26 +1,27 @@
 <template lang="pug">
-header.header.container-fluid(v-if="$route.name !== 'inicio' && $route.name !== 'home'")
-  .row.align-items-center.justify-content-between
-    .col.col-sm-auto.d-flex.align-items-center.justify-content-between.justify-content-sm-start
-      
-      .header__menu.me-4.me-sm-5(
-        @click="toggleMenu"
-      )
-        .header__menu__btn(:class="{'header__menu__btn--open': menuOpen}")
-          .line-2
-          .line-1
-          .line-3
-
-      .d-none.d-md-flex.align-items-center(v-if="isInicio")
-        a(href="#contenidos").me-5 Contenidos
-
-    .col-auto(v-if="isInicio")
-      router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-        span.me-1 Ver contenido
-        i(class="fas fa-angle-right")
-  img.header__logo(src="@/assets/template/logo.svg")
-
-</template>
+  header.header.container-fluid(v-if="$route.name !== 'inicio' && $route.name !== 'home'")
+    .row.align-items-center.justify-content-between
+      .col.col-sm-auto.d-flex.align-items-center.justify-content-between.justify-content-sm-start
+        
+        .header__menu.me-4.me-sm-5(
+          @click="toggleMenu"
+        )
+          .header__menu__btn(:class="{'header__menu__btn--open': menuOpen}")
+            .line-2
+            .line-1
+            .line-3
+  
+        .d-none.d-md-flex.align-items-center(v-if="isInicio")
+          a(href="#contenidos").me-5 Contenidos
+  
+      .col-auto(v-if="isInicio")
+        router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
+          span.me-1 Ver contenido
+          i(class="fas fa-angle-right")
+    router-link(to="/")
+      img.header__logo(src="@/assets/template/logo.svg")
+  
+  </template>
 
 <script>
 import plantillaMixins from '../../mixins/plantillaMixins'

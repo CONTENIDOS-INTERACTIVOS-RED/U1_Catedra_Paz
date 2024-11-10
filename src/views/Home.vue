@@ -27,10 +27,11 @@
               p.descripcion.mb-4.text-bold ¡Prepárate para aplicar herramientas de resolución de conflictos con confianza y eficacia!
 
               .button-container.mt-auto
-                router-link.btn-iniciar(:to="{ name: 'tema1' }")
-                  span INICIAR
-                  div.icon
-                    i.fas.fa-chevron-right
+                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
+                  div.iniciar-btn-container.w-100.w-md-auto
+                    span.iniciar-btn-text INICIAR
+                    div.icon
+                      i.fas.fa-chevron-right
 
       //- Footer
       footer.footer.bg-white
@@ -85,31 +86,45 @@ export default {
     margin-top: auto
     text-align: right
 
-  .btn-iniciar
-    display: flex
-    position: relative
-    align-items: center
-    width: calc(100% - 48px)
-    @media (min-width: 576px)
-      margin-left: auto
-      width: fit-content
-    span
-      text-align: center
-      background-color: $color-sistema-d
-      display: block
-      width: 100%
-      padding: 12px 42px 12px 32px
-      color: #fff
-    .icon
-      background-color: $color-sistema-e
-      padding: 0px 20px
-      color: #fff
-      position: absolute
-      right: -40px
-      height: 100%
+    .btn-iniciar
       display: flex
       align-items: center
+      width: calc(100% - 48px)
+      @media (min-width: 576px)
+        margin-left: auto
+        width: fit-content !important
+      .iniciar-btn-container
+        text-align: center
+        display: flex
+        .iniciar-btn-text
+          background-color: $color-sistema-d
+          padding: 12px 42px 12px 32px
+          width: 100%
+          color: #fff
+      .icon
+        background-color: $color-sistema-e
+        padding: 0px 20px
+        color: #fff
+        display: flex
+        align-items: center
     /* Aquí tus estilos existentes para el botón */
+
+
+  .iniciar-btn-container
+    .iniciar-btn-text
+      transition: all 0.4s ease-in-out
+      background-color: #1172B3 !important
+      color: white !important
+    .icon
+      transition: all 0.4s ease-in-out
+      background-color: #083E61 !important
+    &:hover
+      .iniciar-btn-text
+        background-color: #083E61 !important
+        color: white !important
+      .icon
+        background-color: #1172B3 !important
+        color: white !important
 
   .home
     padding: 20px
