@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 1. Introducción a la Paz y Resolución de Conflictos: Causas y Dinámicas del Conflicto'" :subTitulo="'2. TIPOS O NIVELESDE CONFLICTO'")
+  BannerInterno(:titulo="'Unidad 1. Introducción a la Paz y Resolución de Conflictos: Causas y Dinámicas del Conflicto'" :subTitulo="'2. TIPOS O NIVELES DE CONFLICTO'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-md-3
@@ -46,10 +46,10 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Tipos de fuentes
-                      p Teniendo claras las diferencias en los tipos de fuentes, es importante profundizar qué contiene cada una de estas y para ello lo invitamos a consultar el PDF #[strong Tipos de fuentes]
+                      h3.mb-1 Tipos de conflicto
+                      p Exploremos los factores que desencadenan estos conflictos, profundizando en cómo influyen en su surgimiento y evolución, a través del PDF #[b Tipos de conflicto].
                     .col-sm-auto
-                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_Tipos_de_conflicto.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-arrow-right
 
@@ -111,25 +111,25 @@
           .px-5
             p.mb-0(data-aos="fade-up") Los conflictos no surgen de manera aislada, sino que son el resultado de una combinación de factores sociales, económicos, políticos y culturales. Comprender estos factores desencadenantes, permite identificar las raíces de los choques y abordarlos de manera más efectiva. Al reconocer las causas subyacentes, como la desigualdad económica, la discriminación social o las tensiones políticas, es posible desarrollar estrategias de resolución, que promuevan una paz positiva y contribuyan a la estabilidad social.
       
-    .row.material-complementario.mt-5
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='')
+    .bg-full-width.border-top.color-primario
+      .px-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://rodin.uca.es/handle/10498/27198" target="_blank" rel="noopener noreferrer") Sánchez Pérez, J. (2005). Aproximación interdisciplinar al conflicto y a la negociación. Universidad de Cádiz. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://revistas.unicolmayor.edu.co/index.php/tabularasa/article/view/1694" target="_blank" rel="noopener noreferrer") Fuquen Alvarado, ME, (2003). Los conflictos y las formas alternativas de resolución. Tabula Rasa, (1), 265-278.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Hh2SiMj7RQw" target="_blank" rel="noopener noreferrer") Lifeder Educación. (2022, 7 de enero). ¿Qué es un conflicto y cuáles son sus causas? Tipos y ejemplos
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 

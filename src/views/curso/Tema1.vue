@@ -40,7 +40,7 @@
             h2.mb-4(data-aos="flip-up") El concepto de paz
             p.mb-4(data-aos="fade-right") El concepto de paz puede parecer sencillo, pero encierra una complejidad profunda que ha sido objeto de estudio durante siglos. En el PDF Concepto de paz, exploramos las ideas de Johan Galtung (1996), quien distingue entre la paz negativa y la paz positiva, dos enfoques que van más allá de la mera ausencia de violencia. A través de ejemplos concretos, veremos cómo estas definiciones nos ayudan a comprender y mejorar las dinámicas cotidianas en nuestras comunidades y lugares de trabajo, y descubriremos por qué la construcción de una paz genuina exige mucho más que evitar conflictos abiertos.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Concepto_de_paz.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -137,30 +137,31 @@
       .col-lg-8
         .bg-color-6.p-4.mb-4(data-aos="fade-left")
           h4 Freire (2000)
-          p.mb-0 En una empresa, la cultura de paz puede manifestarse a través de iniciativas como la implementación de programas de formación en conflictos, la promoción de la participación democrática y la creación de espacios para la expresión de opiniones. Estas prácticas no solo fomentan la resolución pacífica de disputas, sino que también contribuyen a la mejora de la comunicación y la colaboración entre los empleados.
+          p.mb-0 Destaca la educación como un factor clave en la construcción de una cultura de paz. La educación para la paz no solo se trata de enseñar sobre la ausencia de guerra o violencia, sino de capacitar a los individuos para que se conviertan en agentes de cambio en sus comunidades. Según Freire, "la educación debe emancipar a los oprimidos", lo que significa que debe preparar a las personas para luchar contra la injusticia y promover la equidad en todos los aspectos de la vida.
 
         p.mb-0(data-aos="fade-up") Por lo tanto, el fomento de una cultura de paz no puede limitarse a las esferas políticas o sociales; debe integrarse en todos los niveles de la educación. Esto incluye desde la enseñanza básica hasta la educación superior, donde los estudiantes deben aprender no solo sobre los conceptos de justicia social y derechos humanos, sino también sobre cómo aplicarlos en la vida diaria. La promoción de habilidades como la escucha activa, la empatía y la negociación pacífica, son fundamentales para construir una sociedad más justa y pacífica.
 
     
-    .row.material-complementario.mt-5
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+    .bg-full-width.border-top.color-primario
+      .px-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=5832796" target="_blank" rel="noopener noreferrer") Harto de Vera, F. (2016). La construcción del concepto de paz: paz negativa, paz positiva y paz imperfecta. Cuadernos de estrategia, (183), 119-146.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://doi.org/10.35197/rx.11.01.2015.06.jp" target="_blank" rel="noopener noreferrer") Pérez Sauceda, J. B. (2015). Cultura de paz y resolución de conflictos: La importancia de la mediación en la construcción de un estado de paz. Revista Ra Ximhai, 11(1), 109–131.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=e-fkfSh2kqM" target="_blank" rel="noopener noreferrer")  Orientación I. (2020, 18 de diciembre). Paz negativa y positiva
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>

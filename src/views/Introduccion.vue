@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:titulo="'Unidad 1: Introducción a la Paz y Resolución de Conflictos - Causas y Dinámicas del Conflicto'" :subTitulo="'INTRODUCCIÓN'")
+    BannerInterno(:titulo="'Unidad 1. Introducción a la Paz y Resolución de Conflictos: Causas y Dinámicas del Conflicto'" :subTitulo="'INTRODUCCIÓN'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
       p.mb-4(data-aos="fade-up") Bienvenidos a la Unidad 1 de la asignatura sobre Cátedra de la Paz y Resolución Pacífica de Conflictos. En esta unidad, se abordarán los conceptos fundamentales que permitirán comprender las causas y dinámicas de los conflictos en diferentes contextos sociales, identificando los factores que influyen en su manifestación y evolución. Además, se conocerán las bases teóricas y prácticas que resultan esenciales para cualquier persona interesada en desempeñar un papel activo en la construcción de una sociedad más pacífica, justa y equitativa.

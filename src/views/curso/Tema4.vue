@@ -34,9 +34,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>

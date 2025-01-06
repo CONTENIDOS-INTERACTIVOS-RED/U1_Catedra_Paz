@@ -61,6 +61,7 @@
             p Con frecuencia, las élites políticas utilizan su posición para manipular el poder en su beneficio, dejando a la sociedad en una posición de vulnerabilidad. 
             p Esto puede manifestarse desde la corrupción hasta el control de los medios de comunicación o la represión de cualquier oposición. 
             p Cuando los ciudadanos empiezan a notar que quienes ostentan el poder lo están usando para su propio beneficio, y no para el bien común, las tensiones inevitablemente aumentan.         
+            p Esta percepción de injusticia tiende a empeorar los conflictos, dado que la falta de transparencia y los altos niveles de corrupción en las instituciones gubernamentales, alimentan el malestar general.
           .col-md-6.col-lg-5.col-xl-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema3/3.png', alt='')
@@ -87,6 +88,8 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/tema3/5.png', alt='')
+
+    p(data-aos="fade-up").mb-5 Este ciclo, en el que los grupos marginados carecen del poder necesario para influir en su propio futuro, no solo perpetúa la desigualdad, sino que también fortalece las dinámicas de poder que sostienen esos mismos sistemas. Así, los conflictos estructurales se mantienen y, con el tiempo, se agravan, a menos que se intervenga para redistribuir el poder de manera más equitativa.
 
     h2(data-aos="fade-up") Conclusión de la unidad
 
@@ -117,33 +120,209 @@
 
         p(data-aos="fade-up").mb-0 Además, las actividades realizadas, como el storytelling y el análisis de casos, ha brindado la oportunidad de aplicar estos conceptos de manera práctica. No solo se ha enfocado en el aspecto teórico, sino que también ha comenzado a desarrollar habilidades claves, como la escucha activa y la mediación, fundamentales para gestionar estos de manera efectiva.
 
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='')
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .px-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.scielo.org.ar/scielo.php?pid=S2314-02082018000100001&script=sci_arttext" target="_blank" rel="noopener noreferrer") Bautista Gómez, MM (2018). Dinámicas de la construcción social del territorio de la localidad de Sumapaz (Bogotá, Colombia): entre los conflictos socioambientales y la resistencia campesina. Pampa (Santa Fe), (17).
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://agora.edu.es/servlet/articulo?codigo=5778652" target="_blank" rel="noopener noreferrer") Ríos Sierra, J. (2016). Dinámicas de la violencia guerrillera en Colombia. Revista de ciencias sociales, 22(3), 84-103.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=WlEhNeI-uw8" target="_blank" rel="noopener noreferrer") EN MINUTOS canal educativo. (2023, 12 de septiembre). La teoría del conflicto en minutos
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
   components: {
-    BannerInterno,
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Factores estructurales y dinámicas de poder',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto: '¿Qué es la paz negativa?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La ausencia de conflictos directos y violencia física.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'La construcción de justicia social.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'La promoción de los derechos humanos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'La creación de igualdad de oportunidades.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Quién introdujo los conceptos de paz negativa y paz positiva?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Jean-Paul Sartre',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Johan Galtung',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Paulo Freire',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Michel Foucault',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto: '¿Cuál es una característica clave de la paz positiva?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La ausencia de guerra',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'La creación de estructuras justas y equitativas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La limitación de conflictos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'El aumento de la vigilancia policial',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué es la cultura de paz según la UNESCO?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Una situación sin conflictos bélicos',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Un conjunto de valores, actitudes y comportamientos para la convivencia pacífica',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La sumisión de todas las culturas a una sola',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'La eliminación de toda forma de comunicación no pacífica',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué concepto describe la paz como un estado que abarca justicia, equidad y bienestar social?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Paz negativa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Paz positiva',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Paz estructural',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Paz comunitaria',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
   },
   mounted() {
     this.$nextTick(() => {
@@ -154,7 +333,6 @@ export default {
 </script>
 
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>

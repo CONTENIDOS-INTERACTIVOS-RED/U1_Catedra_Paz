@@ -117,11 +117,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -135,8 +130,98 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Naciones Unidas. (sf). Organización de las Naciones Unidas',
+      link: 'https://www.un.org/es',
+    },
+    {
+      referencia:
+        'García, JL (2019, 21 de mayo). 9 causas de conflicto en las empresas que interesa conocer para evitarlos. Laboral Social.',
+      link:
+        'https://www.laboral-social.com/9-causas-conflicto-empresas-interesa-conocer-evitarlos.html',
+    },
+    {
+      referencia:
+        'Unidad para las Víctimas. (sf). Análisis de dinámicas territoriales.',
+      link: 'https://datospaz.unid.gov.c/an-Delaware--dinamicas-territoriales/',
+    },
+    {
+      referencia:
+        'Universidad Panamericana. (sf). ¿Por qué conocer la teoría de la burocracia? Blog de Posgrados de Gobierno y Economía.',
+      link:
+        'https://blog.up.edu.mx/posgrados-de-gobierno-y-economia/por-que-conocer-la-teoria-de-la-burocracia',
+    },
+    {
+      referencia: 'Centro Hera. (sf). Modelos de mediación.',
+      link: 'https://www.centrohera.es/modelos-mediacion/',
+    },
+    {
+      referencia:
+        'Escuela Europea de Psicología. (sf). ¿Qué es la comunicación asertiva?',
+      link:
+        'https://psicologia.com/que-es-comunicacion-asertiva/#:~:text=La%20comunicaci%C3%B3n%20asertiva%20es%20un,y%20las%20de%20los%20dem%C3%A1s',
+    },
+    {
+      referencia:
+        'Jurisdicción Especial para la Paz. (Dakota del Norte). Jurisdicción Especial para la Paz. JEP.',
+      link:
+        'https://www.jep.gov.co/JEP/Paginas/Jurisdiccion-Especial-para-la-Paz.aspx',
+    },
+    {
+      referencia: 'Naciones Unidas. (Dakota del Norte). Derechos Humanos.',
+      link: 'https://www.un.org/es/global-issues/human-rights',
+    },
+    {
+      referencia:
+        'Caja de herramientas comunitaria. (Dakota del Norte). Foros de conducta pública: Involucrar a la comunidad en la identificación de problemas y soluciones.',
+      link:
+        'https://ctb.ku.edu/es/tabla-de-contenidos/valoracion/valorar-las-necesidades-y-recursos-comunitarios/foros-de-conducta-publica/principal',
+    },
+    {
+      referencia:
+        'Cabello-Tijerina, P. A., Carmona, V. S. E., Gorjón, G. F. J., Iglesias, O. E., Sáenz, L. K. A., & Vásquez-Gutiérrez, R. L. (2016). Cultura de paz. Universidad Autónoma de Nuevo León.',
+      link:
+        'https://santic.cl/mt-content/uploads/2023/08/cabello-et-al_cultura_de_paz.pdf',
+    },
+    {
+      referencia:
+        'Naciones Unidad. (1948). Declaración Universal de Derechos Humanos.',
+      link:
+        'https://www.un.org/es/about-us/universal-declaration-of-human-rights',
+    },
+    {
+      referencia:
+        'Roldán-Loyola, E. (2020). Educación para la paz como herramienta para construir la cultura de paz. Acta Colombiana de Psicología, 23(1), 369-370.',
+      link:
+        'http://www.scielo.org.co/scielo.php?pid=S0123-91552020000100369&script=sci_arttext',
+    },
+    {
+      referencia:
+        'González Rey, F. (2016). Introducción a la teoría de la cooperación en conflictos. Ediciones Humanistas.',
+      link: 'https://dialnet.unirioja.es/descarga/libro/737248.pdf',
+    },
+    {
+      referencia:
+        'La Rosa, J., & Rivas, G. (2018). Teoría del conflicto y mecanismos de solución (Vol. 33). Fondo Editorial de la PUCP.',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=GaHNDwAAQBAJ&oi=fnd&pg=PT4&dq=6.+La+Rosa,+M.,+%26+Rivas+M%C3%A9todos+alternativos+de+resoluci%C3%B3n+de+conflictos.+Ediciones+Jur%C3%ADdicas.&ots=mhZi4uw68c&sig=n-DdITDA1bR8305WfiWVk0mx63V0',
+    },
+    {
+      referencia:
+        'Chilito Piamba, E. A. (2018). Participación comunitaria, gobernanza y gobernabilidad. Experiencias de construcción de paz en el departamento del Cauca, Colombia, y su aporte a posconflicto, el caso del corregimiento de Lerma. Estudios Politicos, (53), 51-72.',
+      link:
+        'http://www.scielo.org.co/scielo.php?pid=S0121-51672018000200051&script=sci_arttext',
+    },
+    {
+      referencia:
+        'Sánchez Cardona, M. (2016). Educación para la cultura de paz: Una aproximación psicopedagógica',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=CvqN-DwAAQBAJ&oi=fnd&pg=PR13&dq=8.%09S%C3%A1nchez+Cardona,+M.+(2016).+Educaci%C3%B3n+para+la+cultura+de+paz:+Una+aproximaci%C3%B3n+psicopedag%C3%B3gica.&ots=arifg35kTd&sig=ZSRqEe4PJw1PwtSOag9IOsQ1UaM',
+    },
+    {
+      referencia:
+        'de Derechos Humanos, D. U. (2008). Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura.',
+      link:
+        'http://coordinadoradelamujer.org.bo/observatorio/archivos/marco/paralaedducacionylacienciadelacultura_486.pdf',
     },
   ],
   glosario: [
@@ -173,12 +258,12 @@ export default {
     {
       termino: 'Exclusión social',
       significado:
-        '"La exclusión social ocurre cuando ciertos grupos de la sociedad son marginados y se les niega el acceso equitativo a los recursos, derechos y oportunidades, perpetuando la desigualdad." (Martínez, 2001)',
+        '"La exclusión social ocurre cuando ciertos grupos de la sociedad son marginados y se les niega el acceso equitativo a los recursos, derechos y oportunidades, perpetuando la desigualdad." (Martínez, 2001).',
     },
     {
       termino: 'Factores desencadenantes',
       significado:
-        '"Son de los conflictos pueden ser sociales, económicos, políticos o culturales, y actúan como causas inmediatas que provocan tensiones o enfrentamientos entre los actores implicados". (Freire, 2000)',
+        '"Son de los conflictos pueden ser sociales, económicos, políticos o culturales, y actúan como causas inmediatas que provocan tensiones o enfrentamientos entre los actores implicados" (Freire, 2000).',
     },
     {
       termino: 'Mediación',
@@ -193,7 +278,7 @@ export default {
     {
       termino: 'Paz positiva',
       significado:
-        '“se refiere a la construcción de una sociedad donde las estructuras promuevan la justicia, la igualdad y el bienestar para todos los individuos, más allá de la mera ausencia de violencia." (Galtung, 1996).',
+        '“Se refiere a la construcción de una sociedad donde las estructuras promuevan la justicia, la igualdad y el bienestar para todos los individuos, más allá de la mera ausencia de violencia." (Galtung, 1996).',
     },
     {
       termino: 'Violencia estructural',
@@ -201,127 +286,4 @@ export default {
         'Es la violencia que se manifiesta cuando las instituciones y estructuras sociales perpetúan la exclusión, la desigualdad y la injusticia, generando tensiones y conflictos que no se resuelven con la mera ausencia de violencia física." (Galtung, 1996).',
     },
   ],
-  complementario: [
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-  ],
-  creditos: [
-    {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Maria Camila Garcia Santamaria',
-          cargo: 'Líder del equipo',
-          centro: 'Dirección General',
-        },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-      ],
-    },
-    {
-      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-        {
-          nombre: ['Nombre 1', 'Nombre 2'],
-          cargo: 'Diseño web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Desarrollo Front-End',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Validación de diseño y contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-      ],
-    },
-    {
-      titulo: 'GESTORES DE REPOSITORIO',
-      autores: [
-        {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-      ],
-    },
-  ],
-  creditosAdicionales: {
-    imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
-    creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
-  },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
