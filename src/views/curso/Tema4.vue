@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:titulo="'Unidad 1. Introducción a la Paz y Resolución de Conflictos: Causas y Dinámicas del Conflicto'" :subTitulo="'SINTESIS'")
+    BannerInterno(:titulo="'Unidad 1. Introducción a la Paz y Resolución de Conflictos: Causas y Dinámicas del Conflicto'" :subTitulo="'SÍNTESIS'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       
       p(data-aos="fade-up").mb-5 En la Unidad 1, se aprenden los conceptos fundamentales relacionados con la paz, los conflictos y las dinámicas que los generan. Se explicará la diferencia entre paz negativa (ausencia de violencia directa) y paz positiva (creación de justicia y bienestar), siendo esta última, crucial para fomentar un entorno equitativo y de respeto a los derechos humanos (Galtung, 1996).
